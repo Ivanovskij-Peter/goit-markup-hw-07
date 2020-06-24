@@ -369,7 +369,7 @@ textarea {
   border: 2px solid var(--accent-color);
 }
 
-.checkbox-link {
+.checkbox-link:hover {
   color: var(--accent-color);
 }
 /* profit */
