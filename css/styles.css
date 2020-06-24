@@ -666,9 +666,7 @@ textarea {
   line-height: 1.2;
   color: var(--body-color);
 }
-.footer-news {
-  display: flex;
-}
+
 .footer-input {
   width: 358px;
   height: 50px;
