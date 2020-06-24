@@ -426,7 +426,7 @@ textarea {
 .works .item {
   display: block;
   position: relative;
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
 }
 .works .images {
   width: 370px;
@@ -474,7 +474,7 @@ textarea {
   padding: 0;
 }
 .team .item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
   border-radius: 4px 4px 0px 0px;
 }
 .team .item:not(:last-child) {
