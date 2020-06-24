@@ -130,6 +130,7 @@ ul {
 }
 
 .contacts {
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -576,7 +577,6 @@ textarea {
 }
 
 .adress-main {
-  display: flex;
   margin-bottom: 9px;
   color: var(--body-color);
   font-style: normal;
@@ -585,7 +585,6 @@ textarea {
   line-height: 1.7;
 }
 .adress-info {
-  display: flex;
   color: var(--adress-footer-color);
   font-style: normal;
   font-weight: 400;
@@ -595,6 +594,10 @@ textarea {
 }
 .footer-mail {
   margin-bottom: 10px;
+}
+.adress-info:hover,
+:focus {
+  color: var(--accent-color);
 }
 .footer-down {
   margin-bottom: 0;
