@@ -212,7 +212,6 @@ button {
   margin: -15px;
 }
 .example {
-  /* width: calc((100%-60px) / 3); */
   display: block;
 
   width: 370px;
