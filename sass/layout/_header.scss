@@ -5,7 +5,8 @@
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  .accent- & {
+
+  &-accent {
     color: $accent-color;
   }
 }
@@ -94,4 +95,7 @@
   font-size: 14px;
   line-height: 1.1;
   text-decoration: none;
+}
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
