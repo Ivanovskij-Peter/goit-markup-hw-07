@@ -490,19 +490,19 @@ textarea {
   text-align: center;
 }
 
-.works {
+.works-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.works .item {
+.works-block .item {
   display: block;
   position: relative;
   width: calc((100% - 60px) / 3);
 }
 
-.works .item:not(:last-child) {
+.works-block .item:not(:last-child) {
   margin-right: 30px;
 }
 

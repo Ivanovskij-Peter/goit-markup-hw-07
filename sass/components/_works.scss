@@ -7,10 +7,10 @@
   line-height: 1.2;
   text-align: center;
 }
-.works {
+.works-block {
   display: flex;
 }
-.works .item {
+.works-block .item {
   display: block;
   position: relative;
   width: calc((100% - 60px) / 3);
