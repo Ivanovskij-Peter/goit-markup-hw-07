@@ -52,10 +52,9 @@ ul {
   color: var(--second-text-color);
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.875;
   width: 200px;
-  height: 50px;
-  padding-top: 10px;
+  padding-top: 8px;
   padding-bottom: 10px;
   border: 2px solid var(--accent-color);
   border-radius: 4px;
@@ -427,11 +426,7 @@ textarea {
   position: relative;
   width: calc((100% - 60px) / 3);
 }
-.works .images {
-  width: 370px;
-  height: 294px;
-  display: flex;
-}
+
 .works .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -503,9 +498,7 @@ textarea {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.team-photo {
-  display: block;
-}
+
 .section-team-name {
   margin-top: 0;
   margin-bottom: 10px;
